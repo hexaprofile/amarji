@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Landing-Product-Page';
+  src:
+    url('fonts/Landing-Product-Page.ttf?pxs7ml') format('truetype'),
+    url('fonts/Landing-Product-Page.woff?pxs7ml') format('woff'),
+    url('fonts/Landing-Product-Page.svg?pxs7ml#Landing-Product-Page') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="awb-landing-product-"], [class*=" awb-landing-product-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Landing-Product-Page' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.awb-landing-product-close:before {
+  content: "\e901";
+}
+.awb-landing-product-sort:before {
+  content: "\e902";
+}
+.awb-landing-product-cart:before {
+  content: "\e900";
+}
+.awb-landing-product-power-off:before {
+  content: "\f011";
+}
+.awb-landing-product-inbox:before {
+  content: "\f01c";
+}
+.awb-landing-product-sync:before {
+  content: "\f021";
+}
+.awb-landing-product-comment:before {
+  content: "\f075";
+}
+.awb-landing-product-phone:before {
+  content: "\f095";
+}
+.awb-landing-product-wrench:before {
+  content: "\f0ad";
+}
+.awb-landing-product-envelope:before {
+  content: "\f0e0";
+}
+.awb-landing-product-bell:before {
+  content: "\f0f3";
+}
+.awb-landing-product-archive:before {
+  content: "\f187";
+}
+.awb-landing-product-toggle-on:before {
+  content: "\f205";
+}
+.awb-landing-product-map-marker-alt:before {
+  content: "\f3c5";
+}
